@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#canvas {
+	position: fixed;
+	padding-top: 50px;
+	left: 0;
+	top: 50;
+	width: 100%;
+	height: 100%;
+	background-image: radial-gradient(#c81078 0%, #784ba0 55%, #2b86c5 100%);
+	
+}
+
+
+ body.background-page{
+	background-image: url(/Assets/Images/5043374.jpg);
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.info{
+	margin-left: 12%;
+	margin-top: 8%;
+}
+
+.info h1{
+	font-size: 65px;
+	color: rgb(255, 255, 255);
+}
+
+.info h3{
+	font-size: 22px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: rgb(255, 255, 255);
+
+}
+
+.info span{
+	color: rgb(255, 85, 0);
+}
+
+.info a{
+	text-decoration: none;
+	color: #ffffff;
+	background: rgb(255, 85, 0);
+	margin: 26px 0;
+	padding: 10px 18px;
+	border-radius: 10px;
+	display: inline-block;
+	transition: .4s ease;
+}
+
+.info a:hover{
+	background: #0286b6;
+}
+
+.GameButton a{
+	text-decoration: none;
+	color: #ffffff;
+	background: rgb(255, 85, 0);
+	margin: 26px 0;
+	padding: 10px 18px;
+	border-radius: 70px;
+	position: fixed;
+    left: 10px;
+	top: 50px;
+	transition: .4s ease;
+}
+
+.GameButton a:hover{
+	background: #0286b6;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.container-boxes {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px; 
+  gap: 50px; 
+  height: calc(100vh - 56px); 
+}
+
+.box {
+  height: 277px;
+  width: 480px;
+  background-image: url(/Assets/Images/Screenshot\ 2024-06-04\ 175344.png);
+  border: 5px solid black;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  margin-top: -300px;
+}
+
+.box1 {
+	height: 277px;
+	width: 480px;
+	background-image: url(/Assets/Images/5043374.jpg);
+	border: 5px solid black;
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	margin-top: -300px;
+  }
+
+body.Contact{
+	margin: 0;
+	padding: 0;
+	background: url(/Assets/Images/3609060.jpg); 
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	
+}
+
+.info h2{
+	font-size: 64px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	margin-left: -7%;
+	margin-top: -4%;
+}
+
+.info h4{
+	size: 18px;
+	margin-left: -4%;
+	margin-top: 5.3%;
+	color: #ffffff;
+}
+
+body.bg{
+	margin: 0;
+	padding: 0;
+	background: url(/Assets/Images/rm373batch2-09.jpg); 
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	
+}
